@@ -1,9 +1,9 @@
 from typing import Type
 
-from books import Book
-from displays import Display, ConsoleDisplay, ReverseDisplay
-from serializers import Serializer, JsonSerializer, XmlSerializer
-from printers import Printer, ConsolePrinter, ReversePrinter
+from app.books import Book
+from app.displays import Display, ConsoleDisplay, ReverseDisplay
+from app.serializers import Serializer, JsonSerializer, XmlSerializer
+from app.printers import Printer, ConsolePrinter, ReversePrinter
 
 
 DISPLAY_STRATEGIES: dict[str, Type[Display]] = {

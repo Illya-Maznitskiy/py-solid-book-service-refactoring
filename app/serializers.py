@@ -2,7 +2,7 @@ import json
 import xml.etree.ElementTree as ElementTree
 from abc import ABC, abstractmethod
 
-from books import Book
+from app.books import Book
 
 
 class Serializer(ABC):
